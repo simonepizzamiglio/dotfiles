@@ -15,3 +15,4 @@ brew cask install spark
 brew cask install telegram
 brew cask install figma
 brew cask install slack
+brew cask install appcleaner
