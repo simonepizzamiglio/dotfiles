@@ -7,7 +7,7 @@
 brew install git
 
 # nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 nvm install 'lts/*' --reinstall-packages-from=current
 nvm alias default 'lts/*'
