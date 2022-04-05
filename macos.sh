@@ -26,6 +26,3 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Sleep the display after 10 minutes
 sudo pmset -a displaysleep 10
-
-# Set up my preferred keyboard shortcuts
-cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
