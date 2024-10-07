@@ -19,3 +19,4 @@ if command -v brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/
 elif [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion;
 fi;
+eval "$(/opt/homebrew/bin/brew shellenv)"
