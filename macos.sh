@@ -3,9 +3,6 @@
 # Add fonts
 cp ./init/fonts/* ~/Library/Fonts/
 
-# Use fingerprint for sudo
-sudo sh -c "$(printf '\nauth sufficient pam_tid.so') >> /etc/pam.d/sudo"
-
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 

@@ -127,6 +127,8 @@ prompt spaceship
 eval "$(fig init zsh post)"
 
 # import aliases
-source ~/Development/dotfiles/.aliaseseval "$(atuin init zsh)"
+source ~/Development/dotfiles/.aliases
+
+eval "$(atuin init zsh)"
 
 . "$HOME/.atuin/bin/env"
